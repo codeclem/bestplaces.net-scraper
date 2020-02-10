@@ -43,7 +43,7 @@ git clone https://github.com/codeclem/bestplaces.net-scraper
 ## Usage
 Simply run the script:
 ```
-./scrapy.py
+./scrape.py
 ```
 The script takes no arguments. It will automatically create a `bestplaces.db` 
 sqlite database in the current working directory, and begin scraping every 
