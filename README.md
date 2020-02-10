@@ -23,7 +23,7 @@ database the following information for every zip code on the site:
 * Property tax rate
 * Home appreciation in the last 12 months, 5 years, and 10 years
 
-At the time of writing, bestplaces has 33,802 out of the 41,702 zip codes in 
+At the time of writing, bestplaces has 32,989 out of the 41,702 zip codes in 
 the US. However, some very small zip codes may not have all of the information 
 listed above. Anything that is not found will simply be entered into the 
 database as empty columns.
@@ -108,8 +108,6 @@ sqlite> select zip_code, city, state from stats where population > 5000 and popu
 75459|Howe|Texas
 75754|Ben Wheeler|Texas
 79934|El Paso|Texas
-79934|El Paso|Texas
-79938|El Paso|Texas
 79938|El Paso|Texas
 ```
 
